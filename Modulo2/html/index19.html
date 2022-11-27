@@ -7,11 +7,39 @@
     <title>Exercício 019</title>
     <style>
         body {
-            font-family: sans-serif;
+
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            font-weight: 400;
+            font-style: italic;
+            text-decoration: underline;
+
+            /* lighter normal bold bolder */
+
+            /* weight width height */
         }
 
-        h1, h2 {
-            font-family: 'Times New Roman', Times, serif;
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* Shorthand font 
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
         }
     </style>
 </head>
